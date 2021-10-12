@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 400; 700 & display = swap');
+
+body {
+  width: 100vw;
+  height: 100vh;  
+  background: linear-gradient(236.85deg, #020c1d 32.25%, #141314 96.03%);
+  font-family: 'Roboto', sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 30px;  
+  background: #ECF4FF;
+  color: #1C1C1C;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #323232;
+  padding: 64px;
+}
+
+.perfil {
+  display: flex;
+  align-items: center;
+}
+
+.foto-perfil {
+  border-radius: 460px;
+  max-height: 160px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25)  
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo > h1 {
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.titulo > h3 {
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.resumo {
+    background: linear-gradient(236.85deg, #122A57 32.25%, #02112e 96.03%); 
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.resumo h3 {
+    font-size: 26px;
+    margin-left: 480px;
+    padding-top: 10px;
+}
+
+.resumo p {
+    padding: 5px;
+    padding-bottom: 5px;
+    margin-left: 15px;
+}
+
+.stacks-desenvolvidas {
+    background: linear-gradient(236.85deg, #122A57 32.25%, #02112e 96.03%);  
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.stacks-desenvolvidas h3 {
+    font-size: 26px;
+    margin-left: 500px;
+    padding-top: 10px;
+}
+
+.stacks-desenvolvidas ul {
+    padding-bottom: 15px;
+    padding-top: 10px;
+}
+
+.descricao {
+    background: linear-gradient(236.85deg, #122A57 32.25%, #02112e 96.03%);  
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  border-radius: 20px;
+  text-decoration: none;
+}
+
+.descricao ul {
+    font-size: 32px;
+    margin-left: 450px;
+    padding-top: 15px;
+}
+
+.descricao li {
+    margin-bottom: 10px;
+    padding-left: 10px;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.perfil .titulo {
+    align-items: space-around;
+}
